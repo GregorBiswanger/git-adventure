@@ -1,0 +1,4 @@
+node_modules
+my-project
+package-lock.json
+pnpm-lock.yaml

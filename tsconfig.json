@@ -1,0 +1,22 @@
+{
+    "exclude": [
+        "node_modules",
+        "specs"
+    ],
+    "include": [
+        "my-project/**/*"
+    ],
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "commonjs",
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "stripInternal": true,
+        "resolveJsonModule": true,
+        "rootDir": "my-project"
+    }
+}

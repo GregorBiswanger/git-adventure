@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": {},
+        "**/*.d.ts": {}
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.md": "vscode.markdown.preview.editor",
+    }
+}
