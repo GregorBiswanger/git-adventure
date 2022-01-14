@@ -2,8 +2,8 @@ import simpleGit, {SimpleGit} from 'simple-git/promise';
 const projectPath = __dirname.replace('specs', 'my-project');
 const git: SimpleGit = simpleGit(projectPath);
 
-it('should success level 01', async () => {
-    const commits = await git.log();
+it('should success level 02', async () => {
+    const statusResult = await git.status();
 
-    expect(commits.total).toBe(1);
+    expect(statusResult.modified).toContain('hallo.html');
 });
