@@ -1,7 +1,7 @@
 # Erstellen eines Projekts
 
 ## Ziele
-Um zu lernen, wie man ein Git-Repository von Grund auf neu erstellt.
+Um zu lernen, wie man ein Git-Repository von Grund auf neu erstellt und den Status überprüft.
 
 ## 1. Erstelle eine „Hallo Welt!“ Webseite
 Beginne mit einem leeren Arbeitsverzeichnis. Erzeuge das Verzeichnis mit dem Namen „my-project“ im Root vom Git Adventure-Verzeichnis. Anschließend erstelle darin eine hallo.html-Datei mit den folgenden Inhalt: `Hallo Welt!`.
@@ -31,7 +31,7 @@ Befehl:
 `git add hallo.html`  
 `git commit -m "First Commit"`
 
-Du wirst sehen…
+Du wirst sehen...
 
 Ergebnis:  
 `$ git add hallo.html`  
@@ -39,6 +39,23 @@ Ergebnis:
 `[master (root-commit) 911e8c9] First Commit`  
 ` 1 files changed, 1 insertions(+), 0 deletions(-)`  
 ` create mode 100644 hallo.html`
+
+## 4. Überprüfe den Status des Repositories
+Verwende den Befehl `git status`, um den aktuellen Status des Repositories zu überprüfen.
+
+Befehl:  
+`git status`
+
+Du wirst sehen...
+
+Ergebnis:  
+`$ git status`  
+`# On branch master`  
+`nothing to commit (working directory clean)`
+
+Der Befehl überprüft den Status und meldet, dass es nichts zu übergeben gibt, was bedeutet, dass das Repository den aktuellen Status des Arbeitsverzeichnisses speichert und keine Änderungen aufzuzeichnen sind.
+
+Wir werden den Befehl `git status` verwenden, um den Status sowohl des Arbeitsverzeichnisses als auch des Repositories zu überwachen.
 
 ## Level abschließen
 Hast du alles richtig gemacht? Überprüfe es mit dem Befehl `npm start` innerhalb vom Git-Adventure Verzeichnis und schalte das nächste Level frei (docs/02-level.md).
