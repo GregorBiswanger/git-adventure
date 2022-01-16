@@ -3,7 +3,7 @@
 ## Ziel
 - Lerne wie du deine Änderungen des Arbeitsverzeichnisses wieder verwirfst.
 
-## 1. Auschecken des Master-Zweigs
+## 1. Auschecken des Main-Zweigs
 Stelle sicher, dass du dich auf dem letzten Commit im Main-Branch befindest, bevor du loslegst.
 
 Befehl:  
@@ -55,7 +55,7 @@ Verwende den `checkout` Befehl, um die aktuelle Version der `hallo.html` Datei a
 
 Befehl:  
 ```bash
-git checkout hello.html
+git checkout hallo.html
 git status
 code hallo.html
 ```

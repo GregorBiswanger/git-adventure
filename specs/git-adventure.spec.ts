@@ -2,12 +2,12 @@ import simpleGit, {SimpleGit} from 'simple-git/promise';
 const projectPath = __dirname.replace('specs', 'my-project');
 const git: SimpleGit = simpleGit(projectPath);
 
-it('should success level 09', async () => {
-    const tagResult = await git.tags();
+it('should success level 10', async () => {
     const statusResult = await git.status();
+    const commits = await git.log();
 
-    expect(tagResult.all[0].toLowerCase()).toBe('v1');
-    expect(tagResult.all[1].toLowerCase()).toBe('v1-beta');
-    expect(statusResult.detached).toBe(true);
-    expect(statusResult.ahead).toBe(0);
+    expect(statusResult.staged.length).toBe(0);
+    expect(statusResult.modified.length).toBe(0);
+    expect(commits.total).toBe(4);
+    expect(commits.latest?.message.toLowerCase()).toBe('added html header');
 });
