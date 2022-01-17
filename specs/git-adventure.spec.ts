@@ -2,7 +2,7 @@ import simpleGit, {SimpleGit} from 'simple-git/promise';
 const projectPath = __dirname.replace('specs', 'my-project');
 const git: SimpleGit = simpleGit(projectPath);
 
-it('should success level 27', async () => {
+it('should success level 28', async () => {
     const statusResult = await git.status();
     const commits = await git.log();
     const tagResult = await git.tags();
@@ -13,6 +13,6 @@ it('should success level 27', async () => {
     expect(commits.total).toBe(11);
     expect(commits.latest?.message.toLowerCase()).toBe('updated index.html');
     expect(tagResult.all.length).toBe(2);
-    expect(branchSummary.current.toLowerCase()).toBe('style');
+    expect(branchSummary.current.toLowerCase()).toBe('main');
     expect(branchSummary.all.length).toBe(2);
 });
