@@ -5,7 +5,7 @@ const git: SimpleGit = simpleGit(projectPath);
 const secondProjectPath = __dirname.replace('specs', 'cloned_my-project');
 const git2: SimpleGit = simpleGit(secondProjectPath);
 
-it('should success level 29', async () => {
+it('should success level 32', async () => {
     const statusResult = await git.status();
     const commits = await git.log();
     const tagResult = await git.tags();
@@ -13,8 +13,7 @@ it('should success level 29', async () => {
 
     expect(statusResult.staged.length).toBe(0);
     expect(statusResult.modified.length).toBe(0);
-    expect(commits.total).toBe(11);
-    expect(commits.latest?.message.toLowerCase()).toBe('updated index.html');
+    expect(commits.total).toBe(12);
     expect(tagResult.all.length).toBe(2);
     expect(branchSummary.current.toLowerCase()).toBe('main');
     expect(branchSummary.all.length).toBe(2);
