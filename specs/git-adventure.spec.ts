@@ -5,7 +5,7 @@ const git: SimpleGit = simpleGit(projectPath);
 const secondProjectPath = __dirname.replace('specs', 'cloned_my-project');
 const git2: SimpleGit = simpleGit(secondProjectPath);
 
-it('should success level 34', async () => {
+it('should success level 36', async () => {
     const statusResult = await git.status();
     const commits = await git.log();
     const tagResult = await git.tags();
@@ -30,5 +30,5 @@ it('should success level 34', async () => {
     expect(commits2.latest?.message.toLowerCase()).toBe('changed readme in original repo');
     expect(tagResult2.all.length).toBe(2);
     expect(branchSummary2.current.toLowerCase()).toBe('main');
-    expect(branchSummary2.all.length).toBe(3);
+    expect(branchSummary2.all.length).toBe(4);
 });
