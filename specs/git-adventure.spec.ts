@@ -5,7 +5,7 @@ const git: SimpleGit = simpleGit(projectPath);
 const secondProjectPath = __dirname.replace('specs', 'cloned_my-project');
 const git2: SimpleGit = simpleGit(secondProjectPath);
 
-it('should success level 38', async () => {
+it('should success level 39', async () => {
     const statusResult = await git.status();
     const commits = await git.log();
     const tagResult = await git.tags();
@@ -14,10 +14,10 @@ it('should success level 38', async () => {
 
     expect(statusResult.staged.length).toBe(0);
     expect(statusResult.modified.length).toBe(0);
-    expect(commits.total).toBe(12);
+    expect(commits.total).toBe(13);
     expect(tagResult.all.length).toBe(2);
     expect(branchSummary.current.toLowerCase()).toBe('main');
-    expect(branchSummary.all.length).toBe(2);
+    expect(branchSummary.all.length).toBe(3);
     expect(remotes[0].name.toLowerCase()).toBe('shared');
 
     // Check cloned repository
