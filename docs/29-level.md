@@ -5,7 +5,7 @@
 
 Bisher haben wir mit nur einem Git-Repository gearbeitet. Git eignet sich jedoch hervorragend für die Arbeit mit mehreren Repositories. Diese zusätzlichen Repositories können lokal gespeichert oder über eine Netzwerkverbindung aufgerufen werden.
 
-Im nächsten Abschnitt erstellen wir ein neues Repo namens **„cloned_hello“**. Wir werden das Verschieben von Änderungen von einem Repo in ein anderes und den Umgang mit Konflikten bei der Arbeit mit zwei Repositories besprechen.
+Im nächsten Abschnitt erstellen wir ein neues Repo namens **„cloned_my-project“**. Wir werden das Verschieben von Änderungen von einem Repo in ein anderes und den Umgang mit Konflikten bei der Arbeit mit zwei Repositories besprechen.
 
 In der Zwischenzeit arbeiten wir mit lokalen Repositories (die auf Ihrer lokalen Festplatte gespeichert sind). Die meisten Informationen in diesem Abschnitt können auch auf die Arbeit mit mehreren Repositories angewendet werden, unabhängig davon, ob sie lokal gespeichert oder über ein Netzwerk gemeinsam genutzt werden.
 
