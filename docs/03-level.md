@@ -20,7 +20,7 @@ $ git add hallo.html
 $ git status
 # On branch main
 # Changes to be committed:
-#   (use "git reset HEAD <file>..." to unstage)
+#   (use "git restore --staged <file>..." to unstage)
 #  
 #   modified:   hallo.html
 #
@@ -28,7 +28,7 @@ $ git status
 
 Änderungen an hallo.html wurden inszeniert (staged). Das bedeutet, dass Git von der Änderung weiß, aber sie ist nicht dauerhaft im Repository. Der nächste Commit wird die inszenierten Änderungen enthalten.
 
-Solltest du dich entscheiden, die Änderung nicht zu übernehmen, erinnert dich der `git status` Befehl daran, dass du den `git reset` Befehl verwenden kannst, um diese Änderungen rückgängig zu machen.
+Solltest du dich entscheiden, die Änderung nicht zu übernehmen, erinnert dich der `git status` Befehl daran, dass du den `git restore` Befehl verwenden kannst, um diese Änderungen rückgängig zu machen.
 
 ## Level abschließen
 Hast du alles richtig gemacht? Überprüfe es mit dem Befehl `npm start` innerhalb vom Git-Adventure Verzeichnis und schalte das nächste Level frei (docs/04-level.md).
