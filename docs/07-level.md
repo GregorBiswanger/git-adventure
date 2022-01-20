@@ -39,7 +39,7 @@ Das Wichtigste, was du aus dieser Lektion lernen kannst, ist, dass du `git st`  
 Fahre fort und versuche es mit den neuen Befehlen.
 
 ### Tipp
-Es gibt in der Community einige lustige Aliase die direkt übernommen werden können. Wie zum Beispie [Git auf Bayerisch](https://github.com/danielauener/git-auf-deutsch/blob/master/README-bayerisch.md). Der `git init` Befehl würde dann `git ofanga` lauten.
+Es gibt in der Community einige lustige Aliase die direkt übernommen werden können. Wie zum Beispiel [Git auf Bayerisch](https://github.com/danielauener/git-auf-deutsch/blob/master/README-bayerisch.md). Der `git init` Befehl würde dann `git ofanga` lauten.
 
 ## 2. Definiere den hist-Alias in der .gitconfig-Datei
 
