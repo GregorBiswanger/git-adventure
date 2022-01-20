@@ -1,4 +1,4 @@
-# Steged Änderungen abbrechen (vor dem Festschreiben)
+# Staged Änderungen abbrechen (vor dem Festschreiben)
 ## Ziel
 - Erfahre, wie du staged Änderungen rückgängig machen kannst.
 
