@@ -40,7 +40,7 @@ $ git push shared main
 #    1f26579..4d3a273  main -> main
 ```
 
-**Hinweis:** Wir mussten den Main-Branch explizit angeben, um Änderungen zu übermitteln. Es kann automatisch konfiguriert werden, aber ich vergesse immer den Befehl.
+**Hinweis:** Wir mussten den Main-Zweig explizit angeben, um Änderungen zu übermitteln. Es kann automatisch konfiguriert werden, aber ich vergesse immer den Befehl.
 
 ## Level abschließen
 Hast du alles richtig gemacht? Überprüfe es mit dem Befehl `npm start` innerhalb vom Git-Adventure Verzeichnis und schalte das nächste Level frei (docs/40-level.md).
