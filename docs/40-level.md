@@ -1,6 +1,6 @@
-# Allgemeine Änderungen entfernen
+# Allgemeine Änderungen ziehen
 ## Ziel
-- Erfahre, wie du Änderungen aus dem gemeinsamen Repository entfernst.
+- Erfahre, wie du Änderungen aus dem gemeinsamen Repository ziehst.
 
 Wechsele schnell zum geklonten Repository und ziehe die gerade an das gemeinsame Repository gesendeten Änderungen.
 
