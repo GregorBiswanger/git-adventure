@@ -39,9 +39,9 @@ $ git hist --all
 
 Im Moment enthält das Repository alle Commits aus dem ursprünglichen Repo; Sie sind jedoch nicht in die lokalen Zweige des geklonten Repositorys integriert.
 
-Sie finden den Commit mit dem Namen „Changed README in original repo“ im Verlauf. Beachten Sie, dass der Commit „origin/master“ und „origin/HEAD“ enthält.
+Du findest den Commit mit dem Namen „Changed README in original repo“ im Verlauf. Beachte, dass der Commit „origin/main“ und „origin/HEAD“ enthält.
 
-Werfen wir nun einen Blick auf den Commit „Updated index.html“. Sie werden sehen, dass der lokale Master-Branch genau auf diesen Commit zeigt, nicht auf den neuen Commit, den wir gerade abgerufen haben.
+Werfen wir nun einen Blick auf den Commit „Updated index.html“. Du wirst sehen, dass der lokale Main-Branch genau auf diesen Commit zeigt, nicht auf den neuen Commit, den wir gerade abgerufen haben.
 
 Dies bringt uns zu dem Schluss, dass der Befehl „git fetch“ neue Commits aus dem Remote-Repo holt, sie aber nicht in den lokalen Zweigen zusammenführt.
 
