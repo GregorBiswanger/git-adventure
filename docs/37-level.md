@@ -1,8 +1,8 @@
 # Bare Repository
 ## Ziel
-- Um zu lernen, wie man Bare Repository erstellt.
+- Um zu lernen, wie man ein Bare Repository erstellt.
 
-Ein Bare Repository (ohne Arbeitsverzeichnisse) wird normalerweise für die gemeinsame Nutzung benötigt.
+Ein Bare Repository (Ein Git-Repository ohne Arbeitsverzeichnis) wird normalerweise für die gemeinsame Nutzung benötigt.
 
 ## 1. Ein Bare-Repository erstellen.
 
