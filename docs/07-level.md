@@ -12,8 +12,8 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.br branch
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
-git config --global alias.type 'cat-file -t'
-git config --global alias.dump 'cat-file -p'
+git config --global alias.type "cat-file -t"
+git config --global alias.dump "cat-file -p"
 ```
 
 Für Unix/Mac Benutzer:  
@@ -52,17 +52,17 @@ Wir haben ein paar Aliase für Befehle hinzugefügt, die wir noch nicht besproch
 Wenn deine Shell Aliase oder Abkürzungen unterstützt, kannst du auch auf dieser Ebene Aliase hinzufügen. Ich benutze:
 
 ```bash
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias gco='git checkout '
-alias gk='gitk --all&'
-alias gx='gitx --all'
+alias gs="git status "
+alias ga="git add "
+alias gb="git branch "
+alias gc="git commit "
+alias gd="git diff "
+alias gco="git checkout "
+alias gk="gitk --all&"
+alias gx="gitx --all"
 
-alias got='git '
-alias get='git '
+alias got="git "
+alias get="git "
 ```
 
 Die `gco`-Abkürzung für `git checkout` ist sehr nützlich, sodass ich Folgendes eingeben kann:
