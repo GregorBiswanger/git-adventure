@@ -47,14 +47,7 @@ Glücklicherweise zeigt uns der angezeigte Status genau, was wir tun sollten, um
 
 Befehl:  
 ```bash
-git reset HEAD hallo.html
-```
-
-Ergebnis:  
-```bash
-$ git reset HEAD hallo.html
-# Unstaged changes after reset:
-# M   hallo.html
+git restore --staged hallo.html
 ```
 
 ## 4. Wechsle zur Commit-Version
@@ -67,6 +60,9 @@ git status
 
 Ergebnis:
 ```bash
+$ git checkout hallo.html
+# Updated 1 path from the index
+
 $ git status
 # On branch main
 # nothing to commit (working directory clean)
