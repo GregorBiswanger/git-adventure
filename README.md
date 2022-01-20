@@ -21,7 +21,7 @@ Das Spiel kannst du in deiner Eingabeaufforderung mit folgendem Befehl via Git z
 git clone https://github.com/GregorBiswanger/git-adventure.git
 ```
 
-Anschließend wechselst du in das neue Verzeichnis und führst folgenden Befehl aus:
+Anschließend führst folgenden Befehl aus:
 
 ```bash
 cd git-adventure && npm install
