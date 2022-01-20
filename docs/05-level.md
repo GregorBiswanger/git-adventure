@@ -32,7 +32,7 @@ git add hallo.html
 ## 3. Zweite Änderung: Füge die HTML-Header hinzu
 Füge nun die HTML-Header (Abschnitt `<head>`) zur „Hello, World“-Seite hinzu.
 
-hello.html:  
+hallo.html:  
 ```html
 <html>
   <head>
