@@ -89,7 +89,7 @@ Hier ist eine Auflistung der Level und deren Inhalt:
 - **Level 38** - Hinzufügen eines Remote-Repositories
 - **Level 39** - Änderungen übermitteln
 - **Level 40** - Allgemeine Änderungen ziehen
-- **Level 41** - Dein Git-Repository als Git-Server bereitstellen
+- **Level 41** - Danke!
 
 ## 📑 Spickzettel
 Hier ein Cheat Sheet für dich:  
