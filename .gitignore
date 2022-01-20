@@ -1,4 +1,6 @@
 node_modules
 my-project
+cloned_my-project
+my-project.git
 package-lock.json
 pnpm-lock.yaml
