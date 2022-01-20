@@ -7,20 +7,24 @@ Um zu lernen, Änderungen für die bevorstehenden Commits zu inszenieren.
 Jetzt befehle Git, Änderungen zu inszenieren (Stagen). Überprüfe den Status.
 
 Befehl:  
-`git add hallo.html`  
-`git status`
+```bash
+git add hallo.html
+git status
+```
 
 Du wirst sehen...
 
 Ergebnis:  
-`$ git add hallo.html`  
-`$ git status`  
-`# On branch main`  
-`# Changes to be committed:`  
-`#   (use "git reset HEAD <file>..." to unstage)`  
-`#`  
-`#   modified:   hallo.html`  
-`#`  
+```bash
+$ git add hallo.html  
+$ git status
+# On branch main
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#  
+#   modified:   hallo.html
+#
+```
 
 Änderungen an hallo.html wurden inszeniert (staged). Das bedeutet, dass Git von der Änderung weiß, aber sie ist nicht dauerhaft im Repository. Der nächste Commit wird die inszenierten Änderungen enthalten.
 
