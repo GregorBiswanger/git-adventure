@@ -88,7 +88,7 @@ Hier ist eine Auflistung der Level und deren Inhalt:
 - **Level 37** - Bare Repository
 - **Level 38** - Hinzufügen eines Remote-Repositories
 - **Level 39** - Änderungen übermitteln
-- **Level 40** - Allgemeine Änderungen entfernen
+- **Level 40** - Allgemeine Änderungen ziehen
 - **Level 41** - Dein Git-Repository als Git-Server bereitstellen
 
 ## 📑 Spickzettel
