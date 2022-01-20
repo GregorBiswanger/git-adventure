@@ -66,8 +66,8 @@ Es gibt viele Optionen, um auszuwählen, welche Einträge im Protokoll erscheine
 
 ```bash
 git log --pretty=oneline --max-count=2
-git log --pretty=oneline --since='5 minutes ago'
-git log --pretty=oneline --until='5 minutes ago'
+git log --pretty=oneline --since="5 minutes ago"
+git log --pretty=oneline --until="5 minutes ago"
 git log --pretty=oneline --author=<your name>
 git log --pretty=oneline --all
 ```
@@ -77,7 +77,7 @@ git log --pretty=oneline --all
 Dies ist, was ich verwende, um die Änderungen zu überprüfen, die innerhalb der letzten Woche vorgenommen wurden. Ich werde `--author=Gregor` hinzufügen, wenn ich nur die von mir vorgenommenen Änderungen sehen möchte.
 
 ```bash
-git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
+git log --all --pretty=format:"%h %cd %s (%an)" --since="7 days ago"
 ```
 
 ## 4. Das ultimative Format des Protokolls
