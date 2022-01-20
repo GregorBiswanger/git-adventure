@@ -7,8 +7,6 @@
 Oft erkennen wir, nachdem ein Commit bereits vorgenommen wurde, dass es ein Fehler war. Es wäre schön, einen Undo-Befehl zu haben, der es erlaubt, die falschen Commits sofort zu löschen. Dieser Befehl würde das Erscheinen eines oder mehrerer unerwünschter Commits im Verlauf des Git-Protokolls verhindern.
 
 ## 1. Der Reset-Befehl
-Wir haben bereits den `Reset`-Befehl verwendet, um die Pufferzone und den ausgewählten Commit abzugleichen (HEAD-Commit wurde in der vorherigen Lektion verwendet).
-
 Wenn eine Commit-Referenz angegeben wird (d. h. ein Branch-, Hash- oder Tag-Name), wird der `Reset`-Befehl:
 
 1. Überschreibt den aktuellen Branch, damit er auf das richtige Commit zeigt.
