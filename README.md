@@ -59,7 +59,7 @@ Hier ist eine Auflistung der Level und deren Inhalt:
 - **Level 8** - Ältere Versionen bekommen
 - **Level 9** - Tagging
 - **Level 10** - Lokale Änderungen verwerfen (vor dem Staging)
-- **Level 11** - Steged Änderungen abbrechen (vor dem Festschreiben)
+- **Level 11** - Staged Änderungen abbrechen (vor dem Festschreiben)
 - **Level 12** - Abbrechen von Commits
 - **Level 13** - Commits aus einem Branch entfernen
 - **Level 14** - Entfernen des oops-Tags
