@@ -46,7 +46,7 @@ Werfen wir nun einen Blick auf den Commit „Updated index.html“. Du wirst seh
 Dies bringt uns zu dem Schluss, dass der Befehl „git fetch“ neue Commits aus dem Remote-Repo holt, sie aber nicht in den lokalen Zweigen zusammenführt.
 
 ## 1. Überprüfen die README.md
-Wir können zeigen, dass die geklonte README-Datei nicht verändert wurde.
+Wir können sehen, dass die geklonte README-Datei nicht verändert wurde.
 
 Befehl:
 ```bash
